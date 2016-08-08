@@ -1,0 +1,19 @@
+{
+  "name": "electron-ping-graph",
+  "productName": "pinger",
+  "version": "0.0.1",
+  "description": "Electron ping graph",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ electron-pinger --all --out build --overwrite"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.5.1",
+    "electron-prebuilt": "^1.3.2"
+  },
+  "dependencies": {
+    "canvasjs": "^1.8.1",
+    "ping-wrapper2": "0.0.6"
+  }
+}
